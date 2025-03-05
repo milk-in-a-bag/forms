@@ -1,0 +1,106 @@
+.form {
+  width: max-content;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.today {
+  border: 2px solid #000000;
+  padding: 3px;
+}
+
+.input {
+  display: block;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  width: 500px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  margin-top: 15px;
+}
+
+.button {
+  display: block;
+  width: 40%;
+  height: 30px;
+  cursor: pointer;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  color: #d3d3d3;
+  background-color: #000000;
+}
+
+.download {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.downloadp {
+  opacity: 50%;
+}
+
+.lrule {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  margin: 10px;
+  width: 40%;
+  position: relative;
+  left: 289px;
+}
+
+.cheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cbuttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.cbutton {
+  width: 20%;
+  height: 30px;
+  cursor: pointer;
+  margin: 20px 0 20px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #d3d3d3;
+  background-color: #000000;
+}
+
+.confirm {
+  margin-top: 15%;
+}
+
+.xButton {
+  cursor: pointer;
+}
